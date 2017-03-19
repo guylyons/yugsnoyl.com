@@ -1,0 +1,11 @@
+{
+  "name": "yugsnoyl",
+  "version": "1.0.0",
+  "description": "my personal site",
+  "main": "index.js",
+  "author": "Guy Lyons",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
