@@ -5,8 +5,12 @@
   "main": "index.js",
   "author": "Guy Lyons",
   "license": "MIT",
+  "scripts": {
+    "start": "nuxt"
+  },
   "dependencies": {
     "express": "^4.15.2",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "nuxt": "^0.10.5"
   }
 }
