@@ -9,6 +9,9 @@
     "start": "nuxt"
   },
   "dependencies": {
-    "nuxt": "^0.10.5"
+    "css-loader": "^0.27.3",
+    "node-sass": "^4.5.1",
+    "nuxt": "^0.10.5",
+    "sass-loader": "^6.0.3"
   }
 }
