@@ -1,5 +1,8 @@
 <template>
-  <h1>Hello {{ name }}!</h1>
+  <section>
+      <h1>Guy Lyons</h1>
+      <div class="tagline">Dev &amp; Design</div>
+  </section>
 </template>
 
 <script>
