@@ -1,14 +1,21 @@
 <template>
-  <section>
-      <h1>Guy Lyons</h1>
-      <div class="tagline">Dev &amp; Design</div>
-  </section>
+    <main>
+        <Header></Header>
+        <Footer></Footer>
+    </main>
 </template>
 
 <script>
+import Header from '../components/Header.vue'
+import Footer from '../components/Footer.vue'
+
 export default {
-  data: () => {
-    return { name: 'world' }
-  }
+    data: () => {
+        return { name: 'world' }
+    },
+    components: {
+        Header,
+        Footer
+    }
 }
 </script>

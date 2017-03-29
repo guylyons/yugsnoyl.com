@@ -1,7 +1,7 @@
 <template lang="html">
-  <section>
-      Header!
-  </section>
+  <footer>
+      Footer
+  </footer>
 </template>
 
 <script>
