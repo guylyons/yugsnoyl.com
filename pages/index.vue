@@ -2,7 +2,7 @@
     <main>
         <header>
             <h1>Guy Lyons</h1>
-            <h2>Dev &amp; Design</h2>
+            <h2>Web App Dev &amp; Design</h2>
             <img src="//placehold.it/180x180" alt="Guy Lyons">
         </header>
         <div class="row">
