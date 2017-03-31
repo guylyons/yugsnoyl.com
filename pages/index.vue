@@ -12,7 +12,7 @@
     <div class="right">
       <ul>
         <li><a href="https://github.com/guylyons" class="button">Github</a></li>
-        <li><a href="#" class="button">Twitter</a></li>
+        <li><a href="https://twitter.com/yugsnoyl" class="button">Twitter</a></li>
         <li><a href="https://www.linkedin.com/in/guylyons/" class="button">LinkedIn</a></li>
         <li><a href="mailto:that.guy@mailhero.io" class="button">Email</a></li>
       </ul>
