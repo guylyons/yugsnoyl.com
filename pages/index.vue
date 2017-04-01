@@ -2,7 +2,7 @@
   <div class="flex">
     <div class="left">
       <header class="row">
-        <h1 class="title">Guy Lyons</h1>
+        <h1 class="title">yugsnoyl</h1>
         <h2 class="subhead">Web Dev &amp; Design</h2>
         <div class="mugshot">
           <img src="~assets/images/guy.png" alt="Guy Lyons" title="Hire me!">
