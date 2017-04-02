@@ -1,82 +1,61 @@
 <template>
-  <div class="flex">
-    <div class="left">
-      <header class="row">
-        <h1 class="title">yugsnoyl</h1>
-        <h2 class="subhead">Web Dev &amp; Design</h2>
-        <div class="mugshot">
-          <img src="~assets/images/guy.png" alt="Guy Lyons" title="Hire me!">
+  <main>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col left">
+          <header>
+            <h1 class="title">Guy</h1>
+            <h2 class="subhead">Web Dev &amp; Design</h2>
+            <div class="mugshot">
+              <img src="~assets/images/guy.png" alt="Guy Lyons" title="Hire me!">
+            </div>
+          </header>
         </div>
-      </header>
-    </div>
-    <div class="right">
-      <ul>
-        <li><a href="https://github.com/guylyons" class="button">Github</a></li>
-        <li><a href="https://twitter.com/yugsnoyl" class="button">Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/guylyons/" class="button">LinkedIn</a></li>
-        <li><a href="mailto:that.guy@mailhero.io" class="button">Email</a></li>
-      </ul>
-      <div class="ugly-ted">
-        <img src="~assets/images/ugly-ted.png" alt="Ugly Ted" title="Don't hover over me!" width="300" height="auto">
+        <div class="col right">
+          <ul>
+            <li><a href="https://github.com/guylyons" class="button">Github</a></li>
+            <li><a href="https://twitter.com/yugsnoyl" class="button">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/guylyons/" class="button">LinkedIn</a></li>
+            <li><a href="mailto:that.guy@mailhero.io" class="button">Email</a></li>
+          </ul>
+          <div class="ugly-ted">
+            <img src="~assets/images/ugly-ted.png" alt="Ugly Ted" title="Don't hover over me!" width="300" height="auto">
+          </div>
+          <div class="copyright">
+            <p>Guy Lyons ©2017</p>
+          </div>
+        </div>
       </div>
-      <div class="copyright row">
-        <p>Guy Lyons ©2017</p>
-      </div>
     </div>
-  </div>
+  </main>
 </template>
 
 <script>
 // import Header from '../components/Header.vue'
 
 export default {
-  data: () => {
+  data: function() {
     return { name: 'world' }
   },
   components: {
     // Header,
+  },
+  head: {
+    title: "Guy Lyons - Web Dev & Design"
   }
 }
 </script>
 
 <style lang="scss">
-html,
 body {
-  height: 100%;
-}
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 0;
-  padding: 0;
   font-family: "Atlas Grotesk";
 }
 ul {
   list-style: none;
   margin: 0;
 }
-.flex {
-  display: flex;
-  @media (max-width: 540px) {
-    flex-direction: column;
-    text-align: center;
-  }
-}
-.left,
-.right {
-  position: relative;
-  display: inherit;
-  flex: 1;
-  justify-content: center;
-  flex-grow: 1;
-  height: 100vh;
-  padding: 2em;
-}
 .left {
   background-color: #EEE;
-  flex-direction: column;
-  text-align: right;
 }
 .copyright {
   font-weight: 500;
@@ -84,9 +63,8 @@ ul {
   font-size: 10px;
 }
 .right {
-  flex-direction: column;
   background-color: #FFF;
-  text-align: center;
+  ul {padding: 0;}
 }
 .title {
   color: #2599D5;

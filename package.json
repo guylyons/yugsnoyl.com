@@ -6,7 +6,9 @@
   "author": "Guy Lyons",
   "license": "MIT",
   "scripts": {
-    "start": "nuxt"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
   },
   "dependencies": {
     "css-loader": "^0.27.3",
