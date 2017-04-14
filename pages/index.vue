@@ -1,17 +1,9 @@
 <template>
   <main>
     <div class="container">
+      <Header></Header>
       <div class="row text-center">
-        <div class="col left">
-          <header>
-            <h1 class="title">Guy</h1>
-            <h2 class="subhead">Web Dev &amp; Design</h2>
-            <div class="mugshot">
-              <img src="~assets/images/guy.png" alt="Guy Lyons" title="Hire me!">
-            </div>
-          </header>
-        </div>
-        <div class="col right">
+        <div class="col">
           <ul>
             <li><a href="https://github.com/guylyons" class="button">Github</a></li>
             <li><a href="https://twitter.com/yugsnoyl" class="button">Twitter</a></li>
@@ -31,17 +23,17 @@
 </template>
 
 <script>
-// import Header from '../components/Header.vue'
+import Header from '../components/Header.vue'
 
 export default {
   data: function() {
     return { name: 'world' }
   },
   components: {
-    // Header,
+    Header,
   },
   head: {
-    title: "Guy Lyons - Web Dev & Design"
+    title: "Guy Lyons - Dev & Design"
   }
 }
 </script>
@@ -54,17 +46,13 @@ ul {
   list-style: none;
   margin: 0;
 }
-.left {
-  background-color: #EEE;
+.container {
+  max-width: 500px;
 }
 .copyright {
   font-weight: 500;
   color: #666;
   font-size: 10px;
-}
-.right {
-  background-color: #FFF;
-  ul {padding: 0;}
 }
 .title {
   color: #2599D5;
@@ -75,6 +63,9 @@ ul {
   font-size: 14px;
   margin: 0;
 }
+.ugly-ted {
+  text-align: right;
+}
 .button {
   position: relative;
   border: 2px solid #E4E4E4;
@@ -84,7 +75,7 @@ ul {
   display: block;
   text-align: center;
   margin-bottom: 15px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   z-index: 20;
   max-width: 200px;
@@ -92,6 +83,8 @@ ul {
   margin-right: auto;
   &:hover {
     border-color: #000;
+    text-decoration: none;
+    color: #2599D5;
   }
   &::before {
     content: "";
