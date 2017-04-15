@@ -11,10 +11,14 @@
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guylyons/yugsnoyl.com.git"
+  },
   "dependencies": {
     "css-loader": "^0.27.3",
     "node-sass": "^4.5.1",
-    "nuxt": "^0.10.5",
+    "nuxt": "latest",
     "sass-loader": "^6.0.3"
   }
 }
