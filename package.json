@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "css-loader": "^0.27.3",
-    "node-sass": "^4.5.1",
-    "nuxt": "latest",
-    "sass-loader": "^6.0.3"
+    "node-sass": "^4.5.3",
+    "nuxt": "^1.0.0-rc11",
+    "sass-loader": "^6.0.6"
   }
 }
