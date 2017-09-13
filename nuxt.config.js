@@ -4,5 +4,8 @@ module.exports = {
     },
     router: {
         linkActiveClass: "active-link"
-    }
+    },
+    css: [
+    'assets/main.css'
+    ]
 };

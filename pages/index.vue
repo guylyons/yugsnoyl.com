@@ -8,7 +8,7 @@
         <li><a href="mailto:that.guy@mailhero.io" class="button">Email</a></li>
       </ul>
       <div class="ugly-ted">
-        <img src="~assets/images/ugly-ted.png" alt="Ugly Ted" title="Don't hover over me!" width="300" height="auto">
+        <img src="~assets/images/ugly-ted.png" alt="Ugly Ted" title="Don't hover over me!" width="550" height="auto">
       </div>
     </div><!-- .row -->
 
@@ -32,7 +32,7 @@ ul {
   padding: 0;
 }
 .container {
-  max-width: 500px;
+  max-width: 600px;
 }
 .copyright {
   font-weight: 500;
@@ -49,6 +49,9 @@ ul {
   margin: 0;
 }
 .ugly-ted {
+  position: absolute;
+  top: 0; right: 0;
+  z-index: -1;
 }
 .button {
   position: relative;
@@ -56,12 +59,13 @@ ul {
   color: #111;
   text-decoration: none;
   padding: 15px 35px;
-  text-align: center;
   margin-bottom: 15px;
-  display: block;
   font-weight: 500;
-  z-index: 20;
-  max-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  background: rgba(255,255,255,0.7);
   &:hover {
     border-color: #111;
     text-decoration: none;
