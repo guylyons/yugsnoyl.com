@@ -1,44 +1,87 @@
-<template>
+<template lang="html">
   <main>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <ul>
-            <li><a href="https://github.com/guylyons" class="button">Github</a></li>
-            <li><a href="https://twitter.com/yugsnoyl" class="button">Twitter</a></li>
-            <li><a href="https://www.linkedin.com/in/guylyons/" class="button">LinkedIn</a></li>
-            <li><a href="mailto:that.guy@mailhero.io" class="button">Email</a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <div class="ugly-ted">
-            <img src="~assets/images/ugly-ted.png" alt="Ugly Ted" title="Don't hover over me!" width="300" height="auto">
-          </div>
-        </div>
-      </div><!-- .row -->
-      
-      <div class="row col">
-        <div class="copyright">
-          <p>Guy Lyons ©2017</p>
-        </div>
+    <div class="row col">
+      <ul>
+        <li><a href="https://github.com/guylyons" class="button">Github</a></li>
+        <li><a href="https://twitter.com/yugsnoyl" class="button">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/guylyons/" class="button">LinkedIn</a></li>
+        <li><a href="mailto:that.guy@mailhero.io" class="button">Email</a></li>
+      </ul>
+      <div class="ugly-ted">
+        <img src="~assets/images/ugly-ted.png" alt="Ugly Ted" title="Don't hover over me!" width="300" height="auto">
+      </div>
+    </div><!-- .row -->
+
+    <div class="row col">
+      <div class="copyright">
+        <p>Guy Lyons ©2017</p>
       </div>
     </div>
   </div>
 </main>
 </template>
 
-<script>
-import Header from "../components/Header.vue";
-import "./index.scss";
-import axios from "axios";
-
-export default {
-  data: function() {},
-  async asyncData() {
-    const { data } = await axios.get(
-      "https://hacker-news.firebaseio.com/v0/topstories.json?print=pretty"
-    );
-    return { stories: data };
+<style global lang="scss">
+body {
+  font-family: "Source Code Pro", monospace;
+  background-color: #fff;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+}
+.copyright {
+  font-weight: 500;
+  color: #666;
+  font-size: 12px;
+}
+.title {
+  color: #2599d5;
+  font-size: 50px;
+  margin: 0;
+}
+.subhead {
+  font-size: 14px;
+  margin: 0;
+}
+.ugly-ted {
+}
+.button {
+  position: relative;
+  border: 2px solid #e4e4e4;
+  color: #111;
+  text-decoration: none;
+  padding: 15px 35px;
+  text-align: center;
+  margin-bottom: 15px;
+  display: block;
+  font-weight: 500;
+  z-index: 20;
+  max-width: 250px;
+  &:hover {
+    border-color: #111;
+    text-decoration: none;
+    color: #2599d5;
   }
-};
+  &::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    left: 20px;
+    right: 20px;
+    background-color: #fee94e;
+    z-index: -1;
+  }
+}
+.nuxt-link-exact-active {
+  background: #ddd;
+}
+</style>
+
+<script>
 </script>

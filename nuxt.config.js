@@ -1,5 +1,8 @@
 module.exports = {
-  build: {
-    vendor: ["axios"]
-  }
+    build: {
+        vendor: ["axios"]
+    },
+    router: {
+        linkActiveClass: "active-link"
+    }
 };
