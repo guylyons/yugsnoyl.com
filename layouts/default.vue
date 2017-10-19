@@ -1,17 +1,19 @@
-<template>
+<template lang="html">
   <div class="container">
-    <div id="particles-js"></div>
     <Header />
     <nuxt/>
+    <Bottom />
   </div>
 </template>
 
 <script>
 import Header from "../components/Header.vue";
+import Bottom from "../components/Bottom.vue";
 
 export default {
   components: {
-    Header
+    Header,
+    Bottom
   },
   head: {
     title: "Guy Lyons"

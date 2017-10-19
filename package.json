@@ -16,11 +16,11 @@
     "url": "https://github.com/guylyons/yugsnoyl.com.git"
   },
   "dependencies": {
-    "animejs": "^2.0.2",
     "axios": "^0.16.2",
     "css-loader": "^0.27.3",
     "node-sass": "^4.5.3",
-    "nuxt": "^1.0.0-rc9",
+    "nuxt": "^1.0.0-rc11",
+    "nuxtent": "^0.2.80",
     "sass-loader": "^6.0.6"
   }
 }
