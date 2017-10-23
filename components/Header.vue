@@ -3,8 +3,8 @@
     <div class="header">
       <img src="~/assets/images/profile.jpg" alt="Guy Lyons" class="profile">
       <h1 class="title">Guy Lyons</h1>
-      <h2 class="subhead">Open Source Developer,<br/> Proponent, Advocate<br /> and Illustrator 🤓</h2>
-      <div><nuxt-link to="/contact" class="tag">for hire!</nuxt-link></div>
+      <h2 class="subhead">Open Source Developer, Proponent, Advocate &amp; Illustrator 🤓</h2>
+      <div><a href="mailto:that.guy@mailhero.io" class="tag">for hire!</a></div>
     </div>
 
     <nav class="nav nav-main">
@@ -19,14 +19,13 @@
 .header {
   position: relative;
   margin-top: 15px;
-  margin-bottom: 15px;
   padding: 2em;
-  border: 2px solid #eee;
-  border-radius: 5px;
   text-align: center;
   h1 {
-    font-size: 30px;
-    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-transform: uppercase;
   }
 }
@@ -38,14 +37,12 @@
 }
 
 .tag {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: rgb(236, 54, 54);
-  padding: 5px;
+  padding: 3px 8px;
   border-radius: 20px;
   color: #fff;
-  font-size: 9px;
+  font-size: 13px;
+  display: inline-block;
+  background: rgb(236, 54, 54);
   &:hover {
     background: darken(rgb(236, 54, 54), 20%);
   }
