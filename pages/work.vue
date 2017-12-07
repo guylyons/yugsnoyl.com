@@ -1,6 +1,6 @@
 <template lang="html">
   <ul>
-    <li>NYU</li>
+    <li>NYU Ballet</li>
     <li>Adler Windows</li>
     <li>YWCA</li>
     <li>Wildwood Medicine</li>

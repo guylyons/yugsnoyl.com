@@ -8,15 +8,15 @@
 
 <script>
 import Header from "../components/Header.vue";
-import Bottom from "../components/Bottom.vue";
+import Footer from "../components/Footer.vue";
 
 export default {
   components: {
     Header,
-    Bottom
+    Footer
   },
   head: {
-    title: "Guy Lyons"
+    title: "Guy Lyons - Developer"
   }
 };
 </script>

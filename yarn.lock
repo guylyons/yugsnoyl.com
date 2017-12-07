@@ -1209,6 +1209,10 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
 
+bulma@^0.6.0:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.6.1.tgz#5f21a77c0c06f7d80051c06628c23516081bd649"
+
 bytes@2.5.0:
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-2.5.0.tgz#4c9423ea2d252c270c41b2bdefeff9bb6b62c06a"
@@ -3546,9 +3550,9 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nuxt@^1.0.0-rc9:
-  version "1.0.0-rc9"
-  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-1.0.0-rc9.tgz#74bb73f85b1e92a8ad7d7108386fbecccbe7a3d4"
+nuxt@^1.0.0-rc11:
+  version "1.0.0-rc11"
+  resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-1.0.0-rc11.tgz#e30ea7f203cb936b3643527d897501e45eb0965e"
   dependencies:
     "@nuxtjs/youch" "3.0.2"
     ansi-html "^0.0.7"
@@ -3608,9 +3612,9 @@ nuxt@^1.0.0-rc9:
     webpack-hot-middleware "^2.18.2"
     webpack-node-externals "^1.6.0"
 
-nuxtent@^0.2.78:
-  version "0.2.78"
-  resolved "https://registry.yarnpkg.com/nuxtent/-/nuxtent-0.2.78.tgz#11d7eda1d35742a0b6613f1b94b0a224cafb86e4"
+nuxtent@^0.2.80:
+  version "0.2.80"
+  resolved "https://registry.yarnpkg.com/nuxtent/-/nuxtent-0.2.80.tgz#98348769de15b5fb8caa267278094934a1b3942d"
   dependencies:
     chalk "^2.0.1"
     front-matter "^2.1.2"

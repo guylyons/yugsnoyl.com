@@ -1,15 +1,13 @@
 <template lang="html">
   <section class="test">
     <div class="header">
-      <img src="~/assets/images/profile.jpg" alt="Guy Lyons" class="profile">
-      <h1 class="title">Guy Lyons</h1>
-      <h2 class="subhead">Open Source Developer, Proponent, Advocate &amp; Illustrator 🤓</h2>
-      <div><a href="mailto:that.guy@mailhero.io" class="tag">for hire!</a></div>
+      <h1 class="title">Hi, I'm Guy</h1>
+      <h2 class="subhead">Developer</h2>
     </div>
 
     <nav class="nav nav-main">
       <nuxt-link to="/">Home</nuxt-link>
-      <!-- <nuxt-link to="/work">Work</nuxt-link> -->
+      <nuxt-link to="/work">Work</nuxt-link>
       <nuxt-link to="/find-me">Find Me</nuxt-link>
     </nav>
   </section>
@@ -31,8 +29,8 @@
 }
 
 .profile {
-  border-radius: 50px;
-  width: 100px;
+  border-radius: 50%;
+  max-width: 250px;
   height: auto;
 }
 
@@ -74,4 +72,4 @@
     }
   }
 }
-  </style>
+</style>
