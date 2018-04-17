@@ -9,10 +9,8 @@
   </main>
 </template>
 
-<style lang="scss">
-.entry-content {
-  text-align: center;
-}
+<style>
+
 </style>
 
 <script>

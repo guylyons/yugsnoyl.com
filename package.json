@@ -1,6 +1,6 @@
 {
   "name": "yugsnoyl",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "my personal site",
   "main": "index.js",
   "author": "Guy Lyons",
@@ -16,12 +16,10 @@
     "url": "https://github.com/guylyons/yugsnoyl.com.git"
   },
   "dependencies": {
-    "axios": "^0.16.2",
-    "bulma": "^0.6.0",
-    "css-loader": "^0.27.3",
-    "node-sass": "^4.5.3",
-    "nuxt": "^1.0.0-rc11",
-    "nuxtent": "^0.2.80",
-    "sass-loader": "^6.0.6"
+    "bulma": "^0.7.0",
+    "css-loader": "^0.28.11",
+    "nuxt": "^1.4.0",
+    "style-loader": "^0.20.3",
+    "vue-style-loader": "^4.1.0"
   }
 }
