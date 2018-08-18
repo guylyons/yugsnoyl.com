@@ -16,10 +16,12 @@
     "url": "https://github.com/guylyons/yugsnoyl.com.git"
   },
   "dependencies": {
-    "bulma": "^0.7.0",
-    "css-loader": "^0.28.11",
-    "nuxt": "^1.4.0",
-    "style-loader": "^0.20.3",
+    "bulma": "^0.7.1",
+    "css-loader": "^1.0.0",
+    "node-sass": "^4.9.3",
+    "nuxt": "^1.4.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.21.0",
     "vue-style-loader": "^4.1.0"
   }
 }

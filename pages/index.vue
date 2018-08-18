@@ -1,16 +1,17 @@
 <template lang="html">
   <main>
-    <div class="row col">
-      <div class="content entry-content">
-        <p>I am a frequent contributor to open source projects and love all things in the JavaScript ecosysytem.</p>
-        <p>I've worked on large scale projects running the gammut: from a complete redesign for <a href="https://balletcenter.nyu.edu" target="_blank">NYU</a> to art direction and technical lead for <a href="https://csartmaine.org" target="_blank">CSArt Maine</a>.</p>
+    <div class="columns">
+      <div class="column content entry-content">
+        <h1>Guy Lyons</h1>
+        <p>Dev</p>
+      </div>
+      <div class="column content">
       </div>
     </div><!-- .row -->
   </main>
 </template>
 
 <style>
-
 </style>
 
 <script>
